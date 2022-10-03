@@ -1,0 +1,68 @@
+.container {
+  width: 100%;
+  max-width: 600px;
+  height: 600px;
+  padding-top: 20px;
+  margin: 0 auto;
+  position: relative;
+  background-color: rgb(237, 237, 237);
+  border-radius: 10px;
+}
+
+.roomContainer {
+  padding: 10px;
+  height: 90%;
+  overflow-y: auto;
+}
+
+.formContainer {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  padding: 10px;
+  background-color: darkcyan;
+  justify-content: space-between;
+  border: 1px solid rgb(196, 196, 196);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.messageInput {
+  width: 85%;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.message {
+  padding: 12px;
+  background-color: white;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.messageContainer {
+  margin-bottom: 10px;
+}
+
+.timeContainer {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.button {
+  width: 65px;
+  background-color: aliceblue;
+  background-color: rgba(171, 216, 255, 0.798);
+  border-radius: 12px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: aliceblue;
+}
+
+.button:active {
+  transform: scale(0.9);
+}
