@@ -1,7 +1,7 @@
 import { trpc } from "../utils/trpc";
 import styles from "../styles/Main.module.css";
 import { useEffect, useRef, useState } from "react";
-import ChatMessage from "../components/Message";
+import ChatMessage from "../components/ChatMessage";
 import ActionBar from "../components/ActionBar";
 import ParticleComponent from "../components/Particles";
 
@@ -21,7 +21,7 @@ export default function IndexPage() {
 
   useEffect(() => {
     scrollDown();
-  }, [roomRef.current, chatroom.data?.messages]);
+  }, [chatroom.data?.messages]);
 
   return (
     <>

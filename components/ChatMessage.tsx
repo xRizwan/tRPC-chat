@@ -14,7 +14,7 @@ export default function ChatMessage({ message }: MessageProps) {
   // using state to prevent hydration error due to timestamp seconds being different when rendered
   useEffect(() => {
     setTimestamp(formatDate(message.date));
-  }, []);
+  }, [message.date]);
 
   return (
     <div className={styles.messageContainer}>

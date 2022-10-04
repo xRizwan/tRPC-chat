@@ -17,7 +17,7 @@ const Particle = ({ setIsLoaded }: ParticleProps) => {
       console.log(container);
       setIsLoaded(true);
     },
-    []
+    [setIsLoaded]
   );
 
   return (
