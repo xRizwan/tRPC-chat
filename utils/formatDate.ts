@@ -1,7 +1,7 @@
 import { DateTime } from "luxon";
 
 // converts date to the required format in order to display on the browser
-const convertToString = (date: Date): string => {
+const formatDate = (date: Date): string => {
   const obj = new Date(date);
   const datetime = DateTime.fromJSDate(obj);
   const ago = datetime.toRelative();
@@ -14,4 +14,4 @@ const convertToString = (date: Date): string => {
   return ago;
 };
 
-export default convertToString;
+export default formatDate;
