@@ -1,5 +1,8 @@
 Hosted on vercel --> https://chat-kaitochrom.vercel.app/
 
+## Introduction
+Simple chat app built with Next.Js, MongoDB, and tRPC.
+
 ## Getting Started
 
 First, run the development server:
