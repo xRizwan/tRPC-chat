@@ -12,7 +12,7 @@ MONGODB_URI = <your_mongodb_uri_string>
 DB_NAME = <db_name>
 ```
 
-Replace with your own secret keys.
+Replace with your own secret keys and then run the following commands.
 
 ```bash
 npm install
